@@ -1,0 +1,35 @@
+{
+  "name": "artisan-shopify-utils",
+  "version": "0.0.1",
+  "description": "Used to create different things for your store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sillypears/artisan-shopify-utils.git"
+  },
+  "keywords": [
+    "shopify",
+    "artisan",
+    "keycaps"
+  ],
+  "author": "sillypears",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/sillypears/artisan-shopify-utils/issues"
+  },
+  "homepage": "https://github.com/sillypears/artisan-shopify-utils#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-ejs": "^4.3.0",
+    "koa-favicon": "^2.1.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0"
+  }
+}

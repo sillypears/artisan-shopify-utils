@@ -1,0 +1,20 @@
+<!-- views/index.html -->
+
+<div class="header">
+    Your Stuff! All <%= products.length %> of your things
+</div>
+<div id="container" class="container">
+    <div class="row align-items-end">
+    <% products.forEach(function(product, index) { %>
+        <div class='col-md-3 product-card border'>
+            <img class='product-image' src="<%= product.image.src %>" />
+            <div class="title"><%= product.title %></div>
+        </div>
+        <% if (index % 4 == 3) { %>
+    </div>
+    <div class="row align-items-end">
+
+        <% } %>
+    <% }) %>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+body {
+    background-color: slategray;
+}
+
+img.product-image {
+    width: 128px;
+    height: auto;
+
+}
+
+div.product-card {
+    padding: 15px;
+}
